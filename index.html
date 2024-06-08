@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StayCanvas Demo</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="carousel"></div>
+    <div id="image-detection-tool"></div>
+    <div id="demo"></div>
+    <div id="image-differ"></div>
+    <div id="seg-drawer"></div>
+  </div>
+  <script type="module" src="/src/examples/carousel/main.ts"></script>
+  <script type="module" src="/src/examples/imageDetectionTool/main.ts"></script>
+  <script type="module" src="/src/examples/demo/main.ts"></script>
+  <script type="module" src="/src/examples/imageDiffer/main.ts"></script>
+  <script type="module" src="/src/examples/segDrawer/main.ts"></script>
+</body>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .container div {
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
+</style>
+
+</html>
